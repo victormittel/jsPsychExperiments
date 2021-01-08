@@ -102,11 +102,11 @@ const task_instructions_base = {
   canvas_size: cs,
   canvas_border: cb,
   stimulus:
-    "<h2 style='text-align: center;'>Aufgabe:</h2>" +
-    "<h3 style='text-align: left;'>In diesem Experiment musst du auf verschiedene Buchstaben</h3>" +
-    "<h3 style='text-align: left;'>so schnell und so genau wie möglich reagieren, die rechts</h3>" +
-    "<h3 style='text-align: left;'>oder links auf dem Bildschirm erscheinen.</h3>" +
-    "<h3 style='text-align: left;'>Reagiere immer wie folgt:</h3><br>" +
+    "<h2 style='text-align: center;'>ACHTUNG: NEUE INSTRUKTIONEN!!!</h2>" +
+    "<h3 style='text-align: left;'>Du musst nun nur noch auf die Buchstaben</h3>" +
+    "<h3 style='text-align: left;'>so schnell und so genau wie möglich reagieren</h3>" +
+    "<h3 style='text-align: left;'>und kannst die Position auf dem Bildschirm immer ignorieren.</h3>" +
+    "<h3 style='text-align: left;'>Reagiere somit wie folgt:</h3><br>" +
     respText_base +
     "<h2 style='text-align: center;'>Drücke eine beliebige Taste, um fortzufahren.</h2>",
 };
@@ -145,8 +145,11 @@ const task_instructions_pp = {
   canvas_size: cs,
   canvas_border: cb,
   stimulus:
-    "<h2 style='text-align: center;'>ACHTUNG: NEUE INSTRUKTIONEN!!!</h2>" +
-    "<h3 style='text-align: left;'>Die erste Priorität ist auf den Buchstaben weiterhin wie folgt zu reagieren:</h3><br>" +
+    "<h3 style='text-align: left;'>In diesem Experiment musst du auf verschiedene Buchstaben</h3>" +
+    "<h3 style='text-align: left;'>so schnell und so genau wie möglich reagieren, die rechts</h3>" +
+    "<h3 style='text-align: left;'>oder links auf dem Bildschirm erscheinen.</h3>" +
+    "<h3 style='text-align: left;'>Reagiere wie folgt:</h3><br>" +
+    "<h3 style='text-align: left;'>Die erste Priorität ist auf den Buchstaben zu reagieren:</h3><br>" +
     respText_base +
     "<h3 style='text-align: left;'>Wenn der Buchstabe aber " +
     prms.respLetters[2] +
